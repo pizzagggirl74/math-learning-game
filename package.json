@@ -1,0 +1,28 @@
+{
+  "name": "math-learning-game",
+  "version": "1.0.0",
+  "description": "A fun, interactive math learning game designed to help students practice basic arithmetic operations with engaging visual feedback and progress tracking.",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pizzagggirl74/math-learning-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pizzagggirl74/math-learning-game/issues"
+  },
+  "homepage": "https://github.com/pizzagggirl74/math-learning-game#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.8"
+  }
+}
